@@ -137,7 +137,16 @@ if(key_attack==1 &&!jumping)
           {
             src_pickfruit(near_tree,near_fruit);
           }
-         }  
+         } 
+         near_machine=instance_nearest(x,y,obj_basic_machine);
+         if(near_machine!=noone)
+         {       
+            near_machine.active=!near_machine.active;
+            if(near_machine.connectedTo!=noone)
+            {
+                 scr_audioController("beep",noone);
+            }
+         }
 }
 
 if(key_inventory==1 && !jumping)

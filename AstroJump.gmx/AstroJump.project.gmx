@@ -10,6 +10,8 @@
     <sound>sound\snd_pause</sound>
     <sound>sound\snd_shield</sound>
     <sound>sound\snd_slime</sound>
+    <sound>sound\snd_electricity</sound>
+    <sound>sound\snd_beep</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
@@ -148,6 +150,7 @@
           <object>objects\obj_spotlight</object>
         </objects>
         <object>objects\obj_wire</object>
+        <object>objects\obj_basic_machine</object>
       </objects>
     </objects>
     <objects name="Enemies">

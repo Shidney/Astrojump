@@ -124,10 +124,6 @@ global.Temperature= random(global.MaxTemperature);</code>
     <instance objName="obj_wall" x="1088" y="480" name="inst_875235CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1888" y="448" name="inst_E10800AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1888" y="512" name="inst_AEA6923A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-32" y="768" name="inst_80F189AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-32" y="704" name="inst_0783DDAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-32" y="640" name="inst_72A4936F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-32" y="576" name="inst_A8AC26FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="416" y="640" name="inst_5C76F198" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="864" y="640" name="inst_A42C8056" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="1472" y="640" name="inst_7023D486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -142,10 +138,6 @@ global.Temperature= random(global.MaxTemperature);</code>
     <instance objName="obj_wall" x="704" y="640" name="inst_12500D9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="640" y="640" name="inst_9E202640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="576" y="704" name="inst_CB527115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NAND_gate" x="509" y="676" name="inst_DCF4CBE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wire" x="492" y="669" name="inst_67A2CC1F" locked="0" code="NameID=&quot;1i0o-WIRE-001&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wire" x="493" y="684" name="inst_EF3051A3" locked="0" code="NameID=&quot;1i0o-WIRE-002&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wire" x="527" y="676" name="inst_A407A6BB" locked="0" code="NameID=&quot;0i1o-WIRE-001&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

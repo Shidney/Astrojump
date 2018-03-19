@@ -5,10 +5,24 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>obj_basic_machine</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>604</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_inherited</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -26,8 +40,10 @@
           <argument>
             <kind>1</kind>
             <string>active=false;
+Type=WireType.output;
 image_speed=0;
 image_index=0;
+
 </string>
           </argument>
         </arguments>
@@ -50,7 +66,12 @@ image_index=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index=active;
+            <string>if(connectedTo!=noone)
+{
+    active=connectedTo.active;
+}
+image_index=active;
+
 </string>
           </argument>
         </arguments>

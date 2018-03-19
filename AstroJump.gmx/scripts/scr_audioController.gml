@@ -37,4 +37,13 @@ switch(argument0)
     case "attack":
          audio_play_sound(snd_shield,0,0)
     break;
+    case "electric":
+        audio_play_sound(snd_electricity,0,0)
+    break;
+    case "beep":
+        audio_play_sound(snd_beep,0,0);
+    break;
+    case "stop":
+        audio_stop_all();
+    break;
 }

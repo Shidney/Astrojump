@@ -18,3 +18,4 @@ if(!scr_isUsedSlot(global.equiped))
 {
     global.equiped=0;
 }  
+obj_player.wiring=false;

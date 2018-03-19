@@ -121,7 +121,7 @@ else if(global.alpha&gt;=maxValue)
           <argument>
             <kind>1</kind>
             <string>///Set variables
-global.alpha=1;
+global.alpha=0;
 dayLength=6;
 nightLength=60*10;
 incrementValue =(1/60)*(dayLength/nightLength);

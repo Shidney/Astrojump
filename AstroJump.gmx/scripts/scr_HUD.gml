@@ -40,4 +40,10 @@ if(global.equiped!=0)
 {    
     draw_sprite(spr_objetos,global.slot[global.equiped,1],view_xview+view_wview-34,40);
 }
+if(wiring!=noone)
+{
+    draw_sprite_ext(spr_equip,0,view_xview+view_wview-34,40,1,1,1,c_lime,1);
+     draw_sprite(spr_objetos,global.slot[global.equiped,1],view_xview+view_wview-34,40);
+    draw_sprite_ext(wiring.sprite_index,0,view_xview+view_wview-30,46,1,1,0,-1,1);
+}
 

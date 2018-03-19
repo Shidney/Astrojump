@@ -44,6 +44,7 @@ steppitch = 0.8;
 state = states.normal;
 ladder = false;
 jumping=false;
+wiring=noone;
 
 //combat
 MaxHP=global.MaxHP;
@@ -206,7 +207,7 @@ if(global.debugGeneral || global.debugEntity)
     draw_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,1);
     draw_set_color(c_red);
     draw_set_halign(fa_left);
-    draw_text(x-sprite_width ,y-sprite_height-80,"X:" +string(x)+"#Y:" +string(y)+"#HP:"+string(global.HP)+"#"+string(state)+"#Jump:"+string(key_jump)+"#Inv:"+string(key_inventory));
+    draw_text(x-sprite_width ,y-sprite_height-80,"X:" +string(x)+"#Y:" +string(y)+"#HP:"+string(global.HP)+"Wiring"+string(wiring));
     
 }
 </string>
